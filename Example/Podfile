@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+target 'MyPackageLibrary_Example' do
+  pod 'MyPackageLibrary', :path => '../'
+
+  target 'MyPackageLibrary_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end

@@ -1,0 +1,5 @@
+.DS_STORE
+.gitkeep
+podfile.lock
+**/pods
+*.xcworkspace
